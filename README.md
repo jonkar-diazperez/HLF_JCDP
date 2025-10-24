@@ -37,39 +37,6 @@ Para jugar usamos la salida del terminal, enfrentando al **jugador vs CPU**, con
 | `X` | Impacto |
 | `#` | Agua |
 
-# 🚢 Hundir la Flota (HLF) – Python
-
-Versión simplificada del clásico juego *Hundir la Flota (Battleship)*, desarrollada en Python como práctica del curso. El programa utiliza **NumPy para representar los tableros** y una **clase `barco`** para gestionar el estado de cada navío durante la partida.
-
-Este proyecto se juega por consola, enfrentando al **jugador vs CPU**, con colocación aleatoria de barcos y turnos alternos de disparo.
-
----
-
-## 📌 Características
-
-- Tableros de 10x10 representados con `numpy.array`
-- Colocación automática de barcos sin solapamientos
-- Turnos alternados (jugador / CPU)
-- Registro de disparos acertados (`X`) y agua (`#`)
-- Clase `barco` con:
-  - Posiciones y estado de cada sección
-  - Detección de impactos
-  - Marcado de barco hundido
-
----
-
-## 🧠 Reglas del Juego
-
-| Símbolo | Significado |
-|---------|------------|
-| `_` | Casilla vacía del jugador |
-| `*` | Casilla oculta del rival |
-| `O` | Parte de un barco |
-| `X` | Impacto |
-| `#` | Agua |
-
-El objetivo es **hundir la flota rival antes de que hundan la tuya**.
-
 ---
 
 ## 🖥️ Ejemplo visual del tablero
